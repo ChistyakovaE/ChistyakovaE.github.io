@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Мастер по маникюру" as P {
+ Лак для ногтей
+Готовый маникюр Покраска (Ногтевая пластина, В соответствии с формой ногтя)
+}
+hide circle
+@enduml
