@@ -30,6 +30,29 @@
 ![blah](https://github.com/ChistyakovaE/ChistyakovaE.github.io/blob/master/lab1/uml2.png)
 
 ## Лабораторная 2
+## Определение надсистемы (среды функционирования) ## 
+
+* IDEF0-диаграмма (блок А0):
+
+![blah](https://github.com/ChistyakovaE/ChistyakovaE.github.io/blob/master/idef_0.PNG)
+
+* IDEF0-диаграмма (блоки A1, A2, A3)
+
+![blah](https://github.com/ChistyakovaE/ChistyakovaE.github.io/blob/master/dec1.PNG)
+
+## Определение автоматизируемых видов деятельности ##
+
+* DFD-диаграмма "Выбор тура" (блок A1-02)
+
+![blah](https://github.com/ChistyakovaE/ChistyakovaE.github.io/blob/master/dfd.PNG)
+
+* [Диаграмма в формате .rsf](https://github.com/ChistyakovaE/ChistyakovaE.github.io/blob/master/typ.rsf)
+
+## Описание участников автоматизируемой деятельности ##
+
+* [Текст](https://github.com/ChistyakovaE/ChistyakovaE.github.io/blob/master/l2uml.txt) и [рисунок](https://github.com/ChistyakovaE/ChistyakovaE.github.io/blob/master/prec.PNG) диаграммы прецедентов
+
+![blah](https://github.com/ChistyakovaE/ChistyakovaE.github.io/blob/master/prec.PNG)
 
 ## Лабораторная 3
 
