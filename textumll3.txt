@@ -1,0 +1,27 @@
+@startuml
+?
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+autonumber
+
+actor "Сотрудник" as user
+database "Туры" as app
+boundary "Система бронироваиня туров" as app2
+
+user -> app: Поиск тура
+activate app
+app->user: Возможные туры
+deactivate app
+
+user --> app2: Сбор данных для оформления документов
+activate app2
+app <- app2: Данные от туропертора и клиента
+activate app
+app->app2: Оформление договора
+deactivate app
+app2->user: Подготовленная путевка
+deactivate app2
+@enduml
