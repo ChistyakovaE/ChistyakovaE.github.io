@@ -1,0 +1,36 @@
+@startuml
+skinparam class {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+class Role as "Модули"
+
+class Human as "Экранные формы"
+class Tools as "Модуль обработки"
+class HR as "Создание логина"
+class HR1 as "Создание пароля"
+class System as "Формирование пациента"
+class System1 as "Сохранение записи"
+class System2 as "Формирование талона"
+class System3 as "Авторизованный пациент"
+class System4 as "Назначенный диетолог"
+class System5 as "Изменение мед.карты"
+
+
+Role<|— Human
+Role<|— Tools
+
+Human <|— HR
+Human <|— HR1
+Tools <|— System
+Tools <|— System1
+Tools <|— System2
+Tools <|— System3
+Tools <|— System4
+Tools <|— System5
+
+hide members
+hide circle
+hide methods
+@enduml
