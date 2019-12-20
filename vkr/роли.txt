@@ -1,24 +1,24 @@
 @startuml
 skinparam class {
-	BackgroundColor White
-	ArrowColor Black
-	BorderColor Black
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
 }
 class Role as "Роли"
 
 
-class Human as "Люди"
+class Human as "Пользователи"
 class Tools as "Инструменты"
-class HR as "Пациент"
-class HR1 as "Медработник"
+class Polz1 as "Пациент"
+class Polz2 as "Медработник"
 class System as "Приложение"
 
-Role<|-- Human 
-Role<|-- Tools
+Role<|— Human
+Role<|— Tools
 
-Human <|-- HR
-Human <|-- HR1
-Tools <|-- System
+Human <|— Polz1
+Human <|— Polz2
+Tools <|— System
 
 
 hide members
